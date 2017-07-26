@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!-- All placeholder images came royalty free from http://www.pexels.com -->
+<html>
+	<head>
+		<title>Tiffany Stallings</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,400,700">
+
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h2>MENU</h2>
+				</div>
+
+				<div class="collapse navbar-collapse navi" id="navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+						<li><a href="#">Projects</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Resume</a></li>
+								<li><a href="#">Contact Information</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<!-- Header -->
+			<header>
+				<div class="row header">
+					<div class="col-md-2">
+						<img class="logo" src="images/logo.jpg" alt="Logo">
+					</div>
+					<div class="col-md-10 name-tag">
+						<h1 class="name">Tiffany Stallings</h1>
+						<h4>Front End Padawan</h4>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<hr>
+					</div>
+				</div>
+			</header>
+
+			<!-- Jumbotron -->
+			<section>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="jumbotron jumbo-text">
+							<h1>Portfolio</h1>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Featured Projects -->
+			<section>
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Featured Projects</h2>
+					</div>
+				</div>
+
+				<div class="row project-row">
+					<div class="col-md-4 project">
+						<img class="img-responsive project-thumbnail" src="images/small-bird.jpg" srcset="images/med-bird.jpg 600w, images/lg-bird.jpg 1200w" sizes="(min-width: 800px) 50vw, 100vw" alt="Flying Bird" data-toggle="modal" data-target="#flying">
+						<h3 class="project-title">Flying</h3>
+						<a href="http://github.com">
+							<p>http://github.com</p>
+						</a>
+					</div>
+					<div class="col-md-4 project">
+						<img class="img-responsive project-thumbnail" src="images/small-burgers.jpg" srcset="images/med-burgers.jpg 600w, images/lg-burgers.jpg 1200w" sizes="(min-width: 800px) 50vw, 100vw" alt="Burgers Thumbnail" data-toggle="modal" data-target="#burgers">
+						<h3 class="project-title">Burgers</h3>
+						<a href="http://github.com">
+							<p>http://github.com</p>
+						</a>
+					</div>
+					<div class="col-md-4 project">
+						<img class="img-responsive project-thumbnail" src="images/small-coffee.jpg" srcset="images/med-coffee.jpg 600w, images/lg-coffee.jpg 1200w" sizes="(min-width: 800px) 50vw, 100vw" alt="Coffee and Laptop" data-toggle="modal" data-target="#coffee">
+						<h3 class="project-title">Coffee</h3>
+						<a href="http://github.com">
+							<p>http://github.com</p>
+						</a>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<!-- Modals -->
+		<div class="modal fade" id="flying" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel1">Flying</h4>
+					</div>
+					<div class="modal-body description">
+						<img class="img-responsive project-thumbnail" src="images/small-bird.jpg" srcset="images/med-bird.jpg 600w, images/lg-bird.jpg 1200w" sizes="(min-width: 800px) 50vw, 100vw" alt="Flying Bird">
+						<p>This is a picture of a bird! Wow!</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="burgers" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel2">Burgers</h4>
+					</div>
+					<div class="modal-body description">
+						<img class="img-responsive project-thumbnail" src="images/small-burgers.jpg" srcset="images/med-burgers.jpg 600w, images/lg-burgers.jpg 1200w" sizes="(min-width: 800px) 50vw, 100vw" alt="Burgers Thumbnail">
+						<p>Anyone else hungry?</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="coffee" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel3">Coffee</h4>
+					</div>
+					<div class="modal-body description">
+						<img class="img-responsive project-thumbnail" src="images/small-coffee.jpg" srcset="images/med-coffee.jpg 600w, images/lg-coffee.jpg 1200w" sizes="(min-width: 800px) 50vw, 100vw" alt="Coffee and Laptop">
+						<p>A lot of coffee was had during the making of this portfolio.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
