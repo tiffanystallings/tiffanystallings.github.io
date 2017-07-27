@@ -88,21 +88,21 @@
 					<div class="col-md-4 project">
 						<img class="img-responsive project-thumbnail" src="images/movietrailer.jpg" alt="A website showing movie trailers." data-toggle="modal" data-target="#movie">
 						<h3 class="project-title">Movie Trailer Website</h3>
-						<a href="http://github.com/tiffanystallings/movie-trailer-project">
+						<a href="http://github.com/tiffanystallings/movie-trailer-project" target="_blank">
 							<p>Github Repository</p>
 						</a>
 					</div>
 					<div class="col-md-4 project">
 						<img class="img-responsive project-thumbnail" src="images/arcadegame.jpg" alt="A gameplay screenshot." data-toggle="modal" data-target="#arcade">
 						<h3 class="project-title">Classic Arcade Game Clone</h3>
-						<a href="https://github.com/tiffanystallings/frontend-nanodegree-arcade-game">
+						<a href="https://github.com/tiffanystallings/frontend-nanodegree-arcade-game" target="_blank">
 							<p>Github Repository</p>
 						</a>
 					</div>
 					<div class="col-md-4 project">
 						<img class="img-responsive project-thumbnail" src="images/resumepage.jpg" alt="A web page showing a resume." data-toggle="modal" data-target="#resume">
 						<h3 class="project-title">Interactive Resume</h3>
-						<a href="https://github.com/tiffanystallings/frontend-nanodegree-resume">
+						<a href="https://github.com/tiffanystallings/frontend-nanodegree-resume" target="_blank">
 							<p>Github Repository</p>
 						</a>
 					</div>
@@ -118,8 +118,18 @@
 						<h4 class="modal-title" id="myModalLabel1">Movie Trailer Website</h4>
 					</div>
 					<div class="modal-body description">
-						<img class="img-responsive" src="images/movietrailer.jpg" alt="A website showing movie trailers.">
-						<p>This is a picture of a bird! Wow!</p>
+						<img class="img-responsive project-image" src="images/movietrailer.jpg" alt="A website showing movie trailers.">
+						<div class="project-description">
+							<p class="skills-used">Python, HTML, CSS</p>
+							<h3>Udacity's Requirements:</h3>
+							<p>I was asked to use object-oriented Python to create objects that held movie data in server-side files. I was then to pass a list of these objects to fresh_tomatoes.py -- a bit of Python code provided by Udacity to turn the movie data into an html file that shows movie poster images and plays trailers.</p>
+						</div>
+						<div class="project-comments">
+							<h3>Extra Credit:</h3>
+							<p>The posters for my movie were all relatively dark, so I darkened the color scheme considerably. The header was a Bootstrap navbar with preset colors, so I decided to remove its links to Bootstrap and make it a simple header instead. I also imported a fun Google Font to switch things up.</p>
+							<p>More interestingly, I was able to further alter fresh_tomatoes.py to collect storyline information from the movie objects and used that to add the ability to see a movie's storyline on hover.</p>
+							<a href="https://tiffanystallings.github.io/movie-trailer-project/fresh_tomatoes.html" target="_blank">Check out the live demo!</a>
+						</div>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -135,8 +145,18 @@
 						<h4 class="modal-title" id="myModalLabel2">Classic Arcade Game Clone</h4>
 					</div>
 					<div class="modal-body description">
-						<img class="img-responsive" src="images/arcadegame.jpg" alt="A gameplay screenshot.">
-						<p>Anyone else hungry?</p>
+						<img class="img-responsive project-image" src="images/arcadegame.jpg" alt="A gameplay screenshot.">
+						<div class="project-description">
+							<p class="skills-used">Javascript, HTML Canvas</p>
+							<h3>Udacity's Requirements:</h3>
+							<p>I needed to use the provided engine and graphics to create a game where the player must avoid moving bugs and get to the water. Upon collision with the bugs, the game would reset. Upon getting to the water, the game would display "You Win".</p>
+						</div>
+						<div class="project-comments">
+							<h3>Extra Credit:</h3>
+							<p>This was a lot of fun to build, but as an avid gamer I knew I wanted to strive for more. I created a water oject that -- like the bugs -- causes loss of life. Instead of winning by getting to the water, I created a star object that must be obtained to advance to the next level. I changed how the engine lays out levels in order to make the creation of additional levels much more simple.</p>
+							<p>To add an additional challenge, I created gem objects than can be obtained to score additional points. And instead of starting the game over entirely on colliding with a bug or the water, I added lives that were tracked over all levels. Lose three lives, and you lose the game.</p>
+							<a href="https://tiffanystallings.github.io/frontend-nanodegree-arcade-game/" target="_blank">Check out the live demo!</a>
+						</div>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -152,8 +172,19 @@
 						<h4 class="modal-title" id="myModalLabel3">Interactive Resume</h4>
 					</div>
 					<div class="modal-body description">
-						<img class="img-responsive" src="images/resumepage.jpg" alt="A web page showing a resume.">
-						<p>A lot of coffee was had during the making of this portfolio.</p>
+						<img class="img-responsive project-image" src="images/resumepage.jpg" alt="A web page showing a resume.">
+						<div class="project-description">
+							<p class="skills-used">Javascript, HTML, CSS</p>
+							<h3>Udacity's Requirements:</h3>
+							<p>I was provided with boilerplate html and CSS and was tasked with filling in a Javascript file which would target the DOM elements and iteratively fill them in with my resume Information. I also needed to work out how to implement the Google Maps API at the bottom of the page.</p>
+						</div>
+						<div class="project-comments">
+							<h3>Extra Credit:</h3>
+							<p>The original template's style was a tad on the masculine side, so I added a lot of my own colors to it.</p>
+							<p>I also added a small jQuery feature that changes the project images on click. When I revisit this project to add updated information, I intend to use this feature to highlight different elements in my projects that I particularly enjoy.</p>
+							<p>One last little challenge from Udacity was to read through the documentation and get the pins of the Google Maps API to show additional information. Mine simply tell the user the precise city the pin is attached to.</p>
+							<a href="http://tiffanystallings.github.io/frontend-nanodegree-resume/" target="_blank">Check out the live demo!</a>
+						</div>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

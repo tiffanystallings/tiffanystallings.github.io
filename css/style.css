@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: lato, sans-serif;
 }
@@ -87,10 +91,28 @@ h2 {
 
 /* Modals */
 .description {
-	font: 20px lato, sans-serif;
+	font: 18px lato, sans-serif;
+	width: 100%;
 	text-align: center;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
+	align-items: center;
+}
+
+.skills-used {
+	font-size: 16px;
+	font-style: italic;
+}
+
+.project-image, .project-description {
+	padding: 10px;
+	max-width: 49%;
+}
+
+.project-comments {
+	padding: 10px;
+	min-width: 100%;
 }
 
 /* Break Points */
