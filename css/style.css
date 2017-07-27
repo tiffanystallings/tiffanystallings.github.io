@@ -89,6 +89,8 @@ h2 {
 .description {
 	font: 20px lato, sans-serif;
 	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
 /* Break Points */
