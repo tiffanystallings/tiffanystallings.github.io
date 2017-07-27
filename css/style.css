@@ -81,6 +81,13 @@ h2 {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.project:hover {
+	background-color: #eee;
+	cursor: pointer;
 }
 
 .project-thumbnail {
