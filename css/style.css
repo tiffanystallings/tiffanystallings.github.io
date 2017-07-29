@@ -96,6 +96,11 @@ h2 {
 	border-radius: 2.5%;
 }
 
+/* About Me */
+.gray {
+	background-color: #eee;
+}
+
 /* Modals */
 .description {
 	font: 18px lato, sans-serif;
