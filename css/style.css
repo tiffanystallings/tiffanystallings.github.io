@@ -4,6 +4,11 @@
 
 body {
 	font-family: lato, sans-serif;
+	font-size: 100%;
+}
+
+p {
+	font-size: 20px;
 }
 
 a:link,
@@ -99,6 +104,17 @@ h2 {
 /* About Me */
 .gray {
 	background-color: #eee;
+}
+
+#mypic {
+	width: 25%;
+	float: left;
+	border-radius: 2.5%;
+	margin: 20px;
+}
+
+.about-text {
+	padding: 20px;
 }
 
 /* Modals */
