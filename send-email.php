@@ -1,6 +1,7 @@
 <?php
 /* Created with the help of http://form.guide/email-form/html-email-form.html */
-
+if(isset($_POST['submit']))
+{
 	$name = $_POST['name'];
 	$visitor_email = $_POST['email'];
 	$message = $_POST['text'];
@@ -15,7 +16,7 @@
 			'(%08+)',
 			'(%09+)'
 			);
-		$inject = join('|', $injections)
+		$inject = join('|', $injections);
 		$inject = "/$inject/i";
 
 		if(preg_match($inject, $str))
@@ -40,7 +41,7 @@
 		exit;
 	}
 
-	$email_from = "je.deviens.moi@gmail.com"
+	$email_from = "handler@tiffanystallings.github.io";
 	$email_subject = 'Message from Portfolio Page';
 	$email_body = "Message from $name :\n $message";
 
@@ -50,4 +51,5 @@
 
 	mail($to, $email_subject, $email_body, $headers);
 	echo "Message sent!";
+}
 ?>
