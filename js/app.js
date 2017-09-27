@@ -25,4 +25,8 @@ $('#send').submit(function(e) {
 		$('.flash').text("All fields required.");
 	}
 	e.preventDefault();
-})
+});
+
+$('#send').on('reset', function() {
+	$('.flash').text("");
+});
