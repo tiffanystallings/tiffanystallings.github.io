@@ -18,7 +18,7 @@ a:active {
 }
 
 h1 {
-	font-size: 100%;
+	font-size: 40px;
 }
 
 .navi {
@@ -49,8 +49,7 @@ h1 {
 }
 
 .name {
-	font-size: 200%;
-	font-weight: 100;
+	font-weight: 100px;
 }
 
 hr {
