@@ -134,6 +134,11 @@ textarea {
 	font-size: 16px;
 }
 
+.flash {
+	font-size: 12px;
+	color: red;
+}
+
 /* Modals */
 .description {
 	font: 18px lato, sans-serif;

@@ -12,6 +12,12 @@
 
 		<script src="js/jquery-1.12.0.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<script type="text/javascript">
+		   (function(){
+		      emailjs.init("user_8NZCScAYPvLI3l9SOsXXB");
+		   })();
+		</script>
 	</head>
 
 	<body>
@@ -152,10 +158,11 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h2 id="contact">Contact Me</h2>
-						<form action="/send-email.php" method="post" enctype="text/plain">
-							<p>Name: <input type="text" name="name">
-							E-mail: <input type="email" name="email"></p>
-							<textarea name="text">Message</textarea>
+						<p class="flash"></p>
+						<form id="send">
+							<p>Name: <input type="text" id="name">
+							E-mail: <input type="email" id="email"></p>
+							<textarea id="text">Message</textarea>
 							<p><input class="button" type="reset" value="Reset">
 							<input class="button" type="submit" value="Send"></p>
 						</form>
@@ -335,6 +342,6 @@
 				</div>
 			</div>
 		</div>
-
+		<script src="js/app.js"></script>
 	</body>
 </html>
