@@ -10,10 +10,6 @@
     "src/main.ts"
   ],
   "include": [
-    "src/**/*.d.ts",
-    "cypress/support/component.ts"
-  ],
-  "exclude": [
-    "cypress.config.ts"
+    "src/**/*.d.ts"
   ]
 }
