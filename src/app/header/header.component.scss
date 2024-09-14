@@ -1,0 +1,25 @@
+@use '../../m3-theme' as theme;
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Borel';
+    font-size: 2.1rem;
+    color: theme.$light-text;
+    margin: 0;
+}
+
+p#sub-header {
+    font-family: 'BonaNovaSC';
+    font-size: 1.5rem;
+    color: theme.$light-text;
+    margin: 0;
+    position: relative;
+    top: -20px;
+}

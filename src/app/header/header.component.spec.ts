@@ -40,4 +40,14 @@ describe('HeaderComponent', () => {
     fixture.detectChanges();
     expect(compiled.querySelector('header')?.querySelector('app-social')).toBeFalsy();
   })
+
+  it('should contain an h1 element with the text "Tiffany Stallings"', () => {
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.querySelector('h1')?.innerText).toEqual('Tiffany Stallings');
+  })
+
+  it('should contain an p element with the text "Software Engineer"', () => {
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.querySelector('p')?.innerText).toEqual('Software Engineer');
+  })
 });

@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { SocialComponent } from './social/social.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { routes } from './app.routes';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 
 @NgModule({
@@ -23,7 +24,7 @@ import { routes } from './app.routes';
     RouterModule,
     BrowserModule
   ],
-  providers: [provideRouter(routes)],
+  providers: [provideRouter(routes), provideAnimationsAsync()],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

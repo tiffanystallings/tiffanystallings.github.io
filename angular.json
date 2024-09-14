@@ -27,7 +27,9 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/m3-theme.scss",
+              "src/styles.css",
+              "src/fonts.css"
             ],
             "scripts": []
           },
@@ -85,7 +87,9 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/m3-theme.scss",
+              "src/styles.css",
+              "src/fonts.css"
             ],
             "scripts": []
           }
