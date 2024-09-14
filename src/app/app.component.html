@@ -1,9 +1,17 @@
 <div id="layout-parent">
   <nav>
-    <app-navbar />
+    @if (windowSize > 1000) {
+      <app-header [windowSize]="windowSize"/>
+    }
+    <app-navbar [windowSize]="windowSize" />
+    @if (windowSize > 1000) {
+      <app-social />
+    }
   </nav>
   <main class="main">
-    Main content
     <router-outlet />
   </main>
+  @if (windowSize <= 1000) {
+    <app-header [windowSize]="windowSize" />
+  }
 </div>

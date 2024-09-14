@@ -7,9 +7,14 @@ import { Component, HostListener } from '@angular/core';
 })
 export class AppComponent {
   title = 'Tiffany Stallings - Portfolio';
+  windowSize = 0;
+
+  ngOnInit() {
+    this.windowSize = window.innerWidth;
+  }
 
   @HostListener('window:resize', ['$event'])
-  onResize(event: any) {
-    console.log(event.target.innerWidth);
+  onResize(event: {target: Window}) {
+    this.windowSize = event.target.innerWidth
   }
 }

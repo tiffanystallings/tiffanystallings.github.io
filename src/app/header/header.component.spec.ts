@@ -21,4 +21,23 @@ describe('HeaderComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should contain the header element', () => {
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.querySelector('header')).toBeTruthy();
+  })
+
+  it('should contain the socials component if windowSize <= 1000', () => {
+    const compiled = fixture.nativeElement as HTMLElement;
+    component.windowSize = 800;
+    fixture.detectChanges();
+    expect(compiled.querySelector('header')?.querySelector('app-social')).toBeTruthy();
+  })
+
+  it('should not contain the socials component if windowSize > 1000', () => {
+    const compiled = fixture.nativeElement as HTMLElement;
+    component.windowSize = 1200;
+    fixture.detectChanges();
+    expect(compiled.querySelector('header')?.querySelector('app-social')).toBeFalsy();
+  })
 });
