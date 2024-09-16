@@ -1,0 +1,17 @@
+[
+    {
+        "name": "LinkedIn",
+        "icon": "/assets/images/social/icon_linkedin.png",
+        "url": "https://linkedin.com/in/tiffanystallings"
+    },
+    {
+        "name": "GitHub",
+        "icon": "/assets/images/social/icon_github.png",
+        "url": "https://github.com/tiffanystallings"
+    },
+    {
+        "name": "Facebook",
+        "icon": "/assets/images/social/icon_facebook.png",
+        "url": "https://www.facebook.com/tiffany.c.frazier.7"
+    }
+]

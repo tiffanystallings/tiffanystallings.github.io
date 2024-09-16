@@ -1,3 +1,5 @@
+@use '../m3-theme.scss' as theme;
+
 #layout-parent {
     display: flex;
     flex-flow: row nowrap;
@@ -7,12 +9,12 @@
 }
 
 nav {
-    background-color: #42856B;
+    background-color: theme.$surface-primary;
     width: 25%;
     max-width: 500px;
     min-width: 350px;
     height: 100vh;
-    box-shadow: 1px 1px 5px #4F2D3E;
+    box-shadow: 1px 1px 5px theme.$dark-text;
     z-index: 10;
     display: flex;
     flex-flow: column nowrap;
@@ -20,7 +22,7 @@ nav {
 }
 
 main {
-    background-image: url('../assets/images/content-background.jpg');
+    background-image: url('/assets/images/content-background.jpg');
     background-color: rgba(255, 255, 255, 0.6);
     background-blend-mode: lighten;
     background-size: cover;

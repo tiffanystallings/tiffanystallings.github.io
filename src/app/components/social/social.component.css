@@ -1,0 +1,23 @@
+div#social-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+img.social-img {
+    filter: invert(1);
+    height: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+    img.social-img {
+        height: 30px;
+    }
+
+    div#social-container {
+        width: 100vw;
+        padding: 0 10px;
+    }
+}

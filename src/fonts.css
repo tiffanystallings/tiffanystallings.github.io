@@ -1,38 +1,38 @@
 @font-face {
     font-family: Borel;
-    src: url('./assets/fonts/Borel/Borel-Regular.ttf') format("truetype");
+    src: url('/assets/fonts/Borel/Borel-Regular.ttf') format("truetype");
 }
 
 @font-face {
     font-family: BonaNova;
-    src: url('./assets/fonts/Bona_Nova/BonaNova-Regular.ttf') format("truetype");
+    src: url('/assets/fonts/Bona_Nova/BonaNova-Regular.ttf') format("truetype");
 }
 
 @font-face {
     font-family: BonaNova;
     font-weight: bold;
-    src: url('./assets/fonts/Bona_Nova/BonaNova-Bold.ttf') format("truetype");
+    src: url('/assets/fonts/Bona_Nova/BonaNova-Bold.ttf') format("truetype");
 }
 
 @font-face {
     font-family: BonaNova;
     font-style: italic;
-    src: url('./assets/fonts/Bona_Nova/BonaNova-Italic.ttf') format("truetype");
+    src: url('/assets/fonts/Bona_Nova/BonaNova-Italic.ttf') format("truetype");
 }
 
 @font-face {
     font-family: BonaNovaSC;
-    src: url('./assets/fonts/Bona_Nova_SC/BonaNovaSC-Regular.ttf') format("truetype");
+    src: url('/assets/fonts/Bona_Nova_SC/BonaNovaSC-Regular.ttf') format("truetype");
 }
 
 @font-face {
     font-family: BonaNovaSC;
     font-weight: bold;
-    src: url('./assets/fonts/Bona_Nova_SC/BonaNovaSC-Bold.ttf') format("truetype");
+    src: url('/assets/fonts/Bona_Nova_SC/BonaNovaSC-Bold.ttf') format("truetype");
 }
 
 @font-face {
     font-family: BonaNovaSC;
     font-style: italic;
-    src: url('./assets/fonts/Bona_Nova_SC/BonaNovaSC-Italic.ttf') format("truetype");
+    src: url('/assets/fonts/Bona_Nova_SC/BonaNovaSC-Italic.ttf') format("truetype");
 }

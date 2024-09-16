@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import socialJson from '../../../data/social.json';
+import { Social } from '../../interfaces/social.interface';
 
 @Component({
   selector: 'app-social',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './social.component.css'
 })
 export class SocialComponent {
-
+  socials:Array<Social> = [];
+  ngOnInit() {
+    this.socials = socialJson;
+  }
 }

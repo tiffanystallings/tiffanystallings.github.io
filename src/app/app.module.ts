@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ProjectComponent } from './project/project.component';
+import { ProjectComponent } from './components/project/project.component';
 import { AppComponent } from './app.component';
 import { provideRouter, RouterModule } from '@angular/router';
-import { NavbarComponent } from './navbar/navbar.component';
-import { HeaderComponent } from './header/header.component';
-import { SocialComponent } from './social/social.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HeaderComponent } from './components/header/header.component';
+import { SocialComponent } from './components/social/social.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { routes } from './app.routes';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
