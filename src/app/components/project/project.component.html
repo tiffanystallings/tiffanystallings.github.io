@@ -1,5 +1,9 @@
-<div id="project-container">
-    @for (project of projects; track project.title; let i = $index) {
-        <app-project-preview [project]="project" [isFeatured]="i === 0" />
-    }
+<div id="project-parent">
+    <app-project-filter />
+    <div id="project-container">
+        @for (project of projects; track project.title; let i = $index) {
+            <app-project-preview [project]="project" [isFeatured]="i === 0" />
+        }
+    </div>
 </div>
+

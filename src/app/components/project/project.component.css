@@ -1,8 +1,15 @@
+div#project-parent {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
 div#project-container {
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-    padding: 20px;
 }
 
 div#project-container > app-project-preview:first-child {

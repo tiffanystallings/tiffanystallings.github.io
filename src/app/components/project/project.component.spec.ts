@@ -31,4 +31,9 @@ describe('ProjectComponent', () => {
     let compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelectorAll('app-project-preview').length).toEqual(projectJson.items.length);
   })
+
+  it('should render the project-filter component', () => {
+    let compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.querySelector('app-project-filter')).toBeTruthy();
+  })
 });
