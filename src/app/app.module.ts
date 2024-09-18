@@ -9,6 +9,7 @@ import { SocialComponent } from './components/social/social.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { routes } from './app.routes';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { ProjectPreviewComponent } from './project-preview/project-preview.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
     ProjectComponent,
     NavbarComponent,
     HeaderComponent,
-    SocialComponent
+    SocialComponent,
+    ProjectPreviewComponent
   ],
   imports: [
     CommonModule,
