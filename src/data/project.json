@@ -1,0 +1,44 @@
+{
+    "categories": [
+        {
+            "label": "Web Apps",
+            "name": "web-apps"
+        },
+        {
+            "label": "Games",
+            "name": "games"
+        },
+        {
+            "label": "Android Apps",
+            "name": "android-apps"
+        },
+        {
+            "label": "Other",
+            "name": "other"
+        }
+    ],
+    "items": [
+        {
+            "title": "2D Platformer",
+            "preview": "...",
+            "category": "godot-games",
+            "description": "...",
+            "skills": ["gdscript", "godot"],
+            "github": "https.github.com/tiffanystallings/...",
+            "link": "...",
+            "featured": false,
+            "weight": 100
+        },
+        {
+            "title": "Menu Website",
+            "preview": "...",
+            "category": "web-apps",
+            "description": "...",
+            "skills": ["html", "css"],
+            "github": "https.github.com/tiffanystallings/...",
+            "link": "...",
+            "featured": false,
+            "weight": 100
+        }
+    ]
+}
