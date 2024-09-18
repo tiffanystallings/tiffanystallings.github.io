@@ -1,6 +1,10 @@
 {
     "categories": [
         {
+            "label": "All",
+            "name": "all"
+        },
+        {
             "label": "Web Apps",
             "name": "web-apps"
         },
@@ -21,7 +25,7 @@
         {
             "title": "2D Platformer",
             "preview": "...",
-            "categories": ["godot-games"],
+            "categories": ["all", "godot-games"],
             "description": "...",
             "skills": ["gdscript", "godot"],
             "github": "https.github.com/tiffanystallings/...",
@@ -32,7 +36,7 @@
         {
             "title": "Menu Website",
             "preview": "...",
-            "categories": ["web-apps"],
+            "categories": ["all", "web-apps"],
             "description": "...",
             "skills": ["html", "css"],
             "github": "https.github.com/tiffanystallings/...",

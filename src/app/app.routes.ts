@@ -3,16 +3,16 @@ import { ProjectComponent } from './components/project/project.component';
 
 export const routes: Routes = [
     {
-        path: 'projects', 
+        path: 'projects/:category', 
         component: ProjectComponent
     },
     {
         path: '',
-        redirectTo: '/projects',
+        redirectTo: '/projects/all',
         pathMatch: 'full'
     },
     {
         path: '**',
-        redirectTo: '/projects'
+        redirectTo: '/projects/all'
     }
 ];
