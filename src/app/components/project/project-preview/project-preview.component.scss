@@ -1,0 +1,8 @@
+@use '../../../../m3-theme.scss' as theme;
+
+div.preview-card {
+    background-color: theme.$surface-light;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px 0px theme.$box-shadow;
+}

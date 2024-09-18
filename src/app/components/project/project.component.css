@@ -1,0 +1,31 @@
+div#project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 20px;
+}
+
+div#project-container > app-project-preview:first-child {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+@media screen and (max-width: 1500px) {
+    div#project-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div#project-container > app-project-preview:first-child {
+        grid-column-end: 3;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    div#project-container {
+        grid-template-columns: 1fr;
+    }
+
+    div#project-container > app-project-preview:first-child {
+        grid-column-end: 2;
+    }
+}

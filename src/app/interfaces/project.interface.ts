@@ -1,7 +1,7 @@
 export interface Project {
     title: string;
     preview: string;
-    category: string;
+    categories: Array<string>;
     description: string;
     skills: Array<string>;
     github: string;

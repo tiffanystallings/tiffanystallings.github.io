@@ -9,7 +9,7 @@ import { SocialComponent } from './components/social/social.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { routes } from './app.routes';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { ProjectPreviewComponent } from './project-preview/project-preview.component';
+import { ProjectPreviewComponent } from './components/project/project-preview/project-preview.component';
 
 
 @NgModule({

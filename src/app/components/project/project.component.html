@@ -1,1 +1,5 @@
-<p>project works!</p>
+<div id="project-container">
+    @for (project of projects; track project.title; let i = $index) {
+        <app-project-preview [project]="project" [isFeatured]="i === 0" />
+    }
+</div>

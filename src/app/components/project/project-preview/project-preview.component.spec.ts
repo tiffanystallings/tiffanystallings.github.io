@@ -20,4 +20,9 @@ describe('ProjectPreviewComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should contain a preview-card div', () => {
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.querySelector('.preview-card')).toBeTruthy();
+  })
 });

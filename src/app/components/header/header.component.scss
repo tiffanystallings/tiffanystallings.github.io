@@ -33,7 +33,7 @@ span#separator {
 @media screen and (max-width: 1000px) {
     header {
         position: relative;
-        box-shadow: 0 -1px 5px theme.$dark-text;
+        box-shadow: 0 -1px 5px theme.$box-shadow;
         z-index: 10;
     }
 }

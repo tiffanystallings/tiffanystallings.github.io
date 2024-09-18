@@ -21,7 +21,7 @@
         {
             "title": "2D Platformer",
             "preview": "...",
-            "category": "godot-games",
+            "categories": ["godot-games"],
             "description": "...",
             "skills": ["gdscript", "godot"],
             "github": "https.github.com/tiffanystallings/...",
@@ -32,12 +32,12 @@
         {
             "title": "Menu Website",
             "preview": "...",
-            "category": "web-apps",
+            "categories": ["web-apps"],
             "description": "...",
             "skills": ["html", "css"],
             "github": "https.github.com/tiffanystallings/...",
             "link": "...",
-            "featured": false,
+            "featured": true,
             "weight": 100
         }
     ]

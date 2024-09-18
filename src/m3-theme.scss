@@ -215,8 +215,12 @@ $dark-theme: mat.define-theme((
 ));
 
 $light-text: mat.get-theme-color($light-theme, 'neutral', 99);
-$surface-primary: mat.get-theme-color($light-theme, 'primary', 40);
 $dark-text: mat.get-theme-color($light-theme, 'neutral-variant', 10);
+
+$surface-primary: mat.get-theme-color($light-theme, 'primary', 40);
+$surface-light: mat.get-theme-color($light-theme, 'neutral', 99);
+
+$box-shadow: mat.get-theme-color($light-theme, 'neutral-variant', 10);
 
 html {
   // Apply the base theme at the root, so it will be inherited by the whole app.

@@ -25,7 +25,6 @@ describe('SocialComponent', () => {
   it('should contain as many social links as present in the data', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     fixture.detectChanges();
-    console.log(component.socials.length);
     expect(compiled.querySelectorAll('.social-link').length).toEqual(socialJson.length);
   })
 });
