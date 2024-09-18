@@ -1,6 +1,11 @@
 <header>
-    <h1>Tiffany Stallings</h1>
-    <p id="sub-header">Software Engineer</p>
+    <div id="main-header">
+        <h1>Tiffany Stallings</h1>
+        @if (windowSize <= 1000 && windowSize > 750) {
+            <span id="separator">•</span>
+        }
+        <p id="sub-header">Software Engineer</p>
+    </div>
     @if (windowSize <= 1000) {
         <app-social />
     }
