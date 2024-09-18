@@ -10,6 +10,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { routes } from './app.routes';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { ProjectPreviewComponent } from './components/project/project-preview/project-preview.component';
+import { ProjectFilterComponent } from './project/project-filter/project-filter.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ProjectPreviewComponent } from './components/project/project-preview/pr
     NavbarComponent,
     HeaderComponent,
     SocialComponent,
-    ProjectPreviewComponent
+    ProjectPreviewComponent,
+    ProjectFilterComponent
   ],
   imports: [
     CommonModule,

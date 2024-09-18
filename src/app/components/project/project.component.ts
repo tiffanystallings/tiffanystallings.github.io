@@ -24,9 +24,7 @@ export class ProjectComponent {
       } else {
         return 0
       }
-    })
-
-    console.log(this.projects);
+    });
   }
 
   ngOnInit() {
